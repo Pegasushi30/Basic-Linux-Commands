@@ -1,3 +1,61 @@
+# How to Create Your Own Linux Command
+
+You can create your own custom Linux command by following these simple steps:
+
+1. Use the `nano` text editor to create a new shell script file named `networkdemo.sh` in your home directory:
+    ```bash
+    nano ~/networkdemo.sh
+    ```
+
+2. Make the shell script executable by changing its permissions:
+    ```bash
+    chmod +x ~/networkdemo.sh
+    ```
+
+3. Move the shell script to the `/usr/bin` directory to make it accessible system-wide:
+    ```bash
+    sudo mv ~/networkdemo.sh /usr/bin/networkdemo
+    ```
+
+## Example Shell Script
+
+Below is an example shell script (`networkdemo.sh`) that provides a simple menu for performing network-related tasks:
+
+```bash
+#!/bin/bash
+
+echo "1. Ping At"
+echo "2. HTTP GET İsteği Gönder"
+echo "3. DNS Sorgusu Yap"
+echo "4. Çıkış"
+
+read -p "Lütfen bir seçenek seçin: " option
+
+case $option in
+    1)
+        read -p "Ping atmak istediğiniz adresi girin: " address
+        ping -c 4 $address
+        ;;
+    2)
+        read -p "HTTP GET isteği göndermek istediğiniz URL'i girin: " url
+        curl -I $url
+        ;;
+    3)
+        read -p "DNS sorgusu yapmak istediğiniz URL'i girin: " url
+        nslookup $url
+        ;;
+    4)
+        echo "Çıkış yapılıyor..."
+        exit 0
+        ;;
+    *)
+        echo "Geçersiz seçenek! Programdan çıkılıyor..."
+        exit 1
+        ;;
+esac
+
+
+
 # Basic Networking Linux Commands
 | Command                  | Description                                                 |
 |--------------------------|-------------------------------------------------------------|
