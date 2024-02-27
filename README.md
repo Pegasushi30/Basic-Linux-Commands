@@ -24,32 +24,32 @@ Below is an example shell script (`networkdemo.sh`) that provides a simple menu 
 ```bash
 #!/bin/bash
 
-echo "1. Ping At"
-echo "2. HTTP GET İsteği Gönder"
-echo "3. DNS Sorgusu Yap"
-echo "4. Çıkış"
+echo "1. Ping"
+echo "2. Send HTTP GET Request"
+echo "3. Perform DNS Query"
+echo "4. Exit"
 
-read -p "Lütfen bir seçenek seçin: " option
+read -p "Please select an option: " option
 
 case $option in
     1)
-        read -p "Ping atmak istediğiniz adresi girin: " address
+        read -p "Enter the address to ping: " address
         ping -c 4 $address
         ;;
     2)
-        read -p "HTTP GET isteği göndermek istediğiniz URL'i girin: " url
+        read -p "Enter the URL to send HTTP GET request: " url
         curl -I $url
         ;;
     3)
-        read -p "DNS sorgusu yapmak istediğiniz URL'i girin: " url
+        read -p "Enter the URL for DNS query: " url
         nslookup $url
         ;;
     4)
-        echo "Çıkış yapılıyor..."
+        echo "Exiting..."
         exit 0
         ;;
     *)
-        echo "Geçersiz seçenek! Programdan çıkılıyor..."
+        echo "Invalid option! Exiting the program..."
         exit 1
         ;;
 esac
