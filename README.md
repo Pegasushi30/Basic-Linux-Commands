@@ -59,7 +59,7 @@ esac
 # Basic Networking Linux Commands
 | Command                  | Description                                                 | Image |
 |--------------------------|-------------------------------------------------------------|-------|
-| ifconfig                 | Checks your network interfaces.                             |      |
+| ifconfig                 | Checks your network interfaces.                             |  ![Görsel Açıklaması](/images/471_1.jpg)    |
 | traceroute google.com    | It's like your computer sending out little breadcrumbs to Google, hoping to find its way home. | ![Görsel Açıklaması](/images/471_2.jpg) |
 | ping google.com          | Checks if Google is reachable.                              |
 | nslookup                 | Finds IP addresses from domain names.                       |
