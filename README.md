@@ -85,25 +85,10 @@ esac
 | nmap                     | Scans for open ports and services.                          |
 | zenmap                   | GUI for Nmap.                                               |
 | openvpn                  | VPN solution.                                               |
-| nc                       | Reads and writes data across networks.                      |
-| socat                    | Bidirectional data transfer.                                |
-| telnet                   | Connects to remote hosts.                                   |
 | ftp/sftp                 | File transfer protocols.                                    |
-| netstat/ss/lsof/fuser    | Displays network connections and open files.                |
 | iptables                 | Controls IPv4 packet filtering.                             |
-| nftables                 | Firewall tool.                                              |
-| hping3                   | TCP/IP packet assembler/analyzer.                           |
-| traceroute/mtr           | Traces packet routes.                                       |
-| tcptraceroute            | Traces TCP packet routes.                                   |
-| ethtool                  | Displays or changes Ethernet settings.                      |
-| iw/iwconfig              | Manages wireless interfaces.                                |
-| sysctl                   | Manages kernel parameters.                                  |
+| mtr           | Traces packet routes.                                       |
 | openssl                  | Handles secure communications.                              |
-| stunnel                  | Establishes encrypted SSL connections.                      |
-| iptraf/nethogs/iftop/ntop | Monitors network traffic.                                   |
-| ab/nload/iperf           | Measures network bandwidth.                                 |
-| python3 -m http.server   | Starts a simple HTTP server.                                |
-| ipcalc                   | Calculates IP addresses and netmasks.                       |
-| nsenter                  | Runs a program in different process namespaces.   
+
 
 
