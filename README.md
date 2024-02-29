@@ -57,10 +57,10 @@ esac
 
 
 # Basic Networking Linux Commands
-| Command                  | Description                                                 |
-|--------------------------|-------------------------------------------------------------|
-| ifconfig                 | Checks your network interfaces.                             |
-| traceroute google.com    | It's like your computer sending out little breadcrumbs to Google, hoping to find its way home. |
+| Command                  | Description                                                 | Image |
+|--------------------------|-------------------------------------------------------------|-------|
+| ifconfig                 | Checks your network interfaces.                             |      |
+| traceroute google.com    | It's like your computer sending out little breadcrumbs to Google, hoping to find its way home. | ![Görsel Açıklaması](471_1.png) |
 | ping google.com          | Checks if Google is reachable.                              |
 | nslookup                 | Finds IP addresses from domain names.                       |
 | curl -I                  | Gets just the HTTP header of a URL.                         |
@@ -108,11 +108,4 @@ esac
 | ipcalc                   | Calculates IP addresses and netmasks.                       |
 | nsenter                  | Runs a program in different process namespaces.   
 
-
-# Basic Networking Linux Commands
-| Command                  | Description                                                 | Image |
-|--------------------------|-------------------------------------------------------------|-------|
-| ifconfig                 | Checks your network interfaces.                             |       |
-| traceroute google.com    | It's like your computer sending out little breadcrumbs to Google, hoping to find its way home. | ![Görsel Açıklaması](471_1.png) |
-| ping google.com          | Checks if Google is reachable.                              |       |
 
