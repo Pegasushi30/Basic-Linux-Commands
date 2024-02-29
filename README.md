@@ -60,7 +60,7 @@ esac
 | Command                  | Description                                                 | Image |
 |--------------------------|-------------------------------------------------------------|-------|
 | ifconfig                 | Checks your network interfaces.                             |      |
-| traceroute google.com    | It's like your computer sending out little breadcrumbs to Google, hoping to find its way home. | ![Görsel Açıklaması](471_1.png) |
+| traceroute google.com    | It's like your computer sending out little breadcrumbs to Google, hoping to find its way home. | ![Görsel Açıklaması](/images/471_1.jpg) |
 | ping google.com          | Checks if Google is reachable.                              |
 | nslookup                 | Finds IP addresses from domain names.                       |
 | curl -I                  | Gets just the HTTP header of a URL.                         |
