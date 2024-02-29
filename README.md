@@ -85,7 +85,6 @@ esac
 | nmap                     | Scans for open ports and services.                          |
 | zenmap                   | GUI for Nmap.                                               |
 | openvpn                  | VPN solution.                                               |
-| wireguard                | Modern VPN protocol.                                        |
 | nc                       | Reads and writes data across networks.                      |
 | socat                    | Bidirectional data transfer.                                |
 | telnet                   | Connects to remote hosts.                                   |
