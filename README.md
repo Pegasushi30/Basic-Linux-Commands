@@ -68,7 +68,7 @@ esac
 | httpie                   | A simple HTTP client.                                       |
 | wget                     | Downloads files from the web.                               |
 | tc                       | Controls traffic in Linux.                                  |
-| dig/nslookup             | Looks up DNS information.                                   |
+| dig            | Looks up DNS information.                                   |
 | whois                    | Checks domain registration info.                            |
 | ssh                      | Imagine your computer, sneaking into an exclusive VIP party with its own secret handshake. |
 | scp                      | Securely copies files between hosts.                        |
