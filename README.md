@@ -61,8 +61,8 @@ esac
 |--------------------------|-------------------------------------------------------------|-------|
 | ifconfig                 | Checks your network interfaces.                             |  ![Görsel Açıklaması](/images/471_1.jpg)    |
 | traceroute google.com    | It's like your computer sending out little breadcrumbs to Google, hoping to find its way home. | ![Görsel Açıklaması](/images/471_2.jpg) |
-| ping google.com          | Checks if Google is reachable.                              |
-| nslookup                 | Finds IP addresses from domain names.                       |
+| ping google.com          | Checks if Google is reachable.                              | ![Görsel Açıklaması](/images/471_3.jpg)    |
+| nslookup                 | Finds IP addresses from domain names.                       | ![Görsel Açıklaması](/images/471_4.jpg)    |
 | curl -I                  | Gets just the HTTP header of a URL.                         |
 | ping -c 4 $address       | Sends four pings to an address.                             |
 | httpie                   | A simple HTTP client.                                       |
