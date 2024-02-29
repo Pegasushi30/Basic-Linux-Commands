@@ -84,7 +84,6 @@ esac
 | mitmproxy                | Interactive HTTPS proxy.                                    |
 | nmap                     | Scans for open ports and services.                          |
 | zenmap                   | GUI for Nmap.                                               |
-| pof                      | Detects passive OS fingerprints.                            |
 | openvpn                  | VPN solution.                                               |
 | wireguard                | Modern VPN protocol.                                        |
 | nc                       | Reads and writes data across networks.                      |
