@@ -63,12 +63,12 @@ esac
 | traceroute google.com    | It's like your computer sending out little breadcrumbs to Google, hoping to find its way home. | ![Görsel Açıklaması](/images/471_2.jpg) |
 | ping google.com          | Checks if Google is reachable.                              | ![Görsel Açıklaması](/images/471_3.jpg)    |
 | nslookup                 | Finds IP addresses from domain names.                       | ![Görsel Açıklaması](/images/471_4.jpg)    |
-| curl -I                  | Gets just the HTTP header of a URL.                         |
-| ping -c 4 $address       | Sends four pings to an address.                             |
-| httpie                   | A simple HTTP client.                                       |
-| wget                     | Downloads files from the web.                               |
-| tc                       | Controls traffic in Linux.                                  |
-| dig            | Looks up DNS information.                                   |
+| curl -I                  | Gets just the HTTP header of a URL.                         | ![Görsel Açıklaması](/images/471_5.jpg)    |
+| ping -c 4 $address       | Sends four pings to an address.                             | ![Görsel Açıklaması](/images/471_6.jpg)    |
+| httpie                   | A simple HTTP client.                                       | ![Görsel Açıklaması](/images/471.7.jpg)    |
+| wget                     | Downloads files from the web.                               | ![Görsel Açıklaması](/images/471.8.jpg)    |
+| tc                       | Controls traffic in Linux.                                  | ![Görsel Açıklaması](/images/471_9.jpg)    |
+| dig            | Looks up DNS information.                                   | ![Görsel Açıklaması](/images/471_10_1.jpg)    |
 | whois                    | Checks domain registration info.                            |
 | ssh                      | Imagine your computer, sneaking into an exclusive VIP party with its own secret handshake. |
 | scp                      | Securely copies files between hosts.                        |
