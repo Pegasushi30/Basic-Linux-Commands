@@ -20,36 +20,38 @@ You can create your own custom Linux command by following these simple steps:
 ## Example Shell Script
 
 Below is an example shell script (`networkdemo.sh`) that provides a simple menu for performing network-related tasks:
+```bash
+Option a (-a): Executes a ping operation to check host reachability by sending ICMP echo request packets (ping -c 4 <address>).
+
+Option b (-b): Performs a traceroute operation to trace the route taken by packets across an IP network to a specified destination (traceroute <address>).
+
+Option c (-c): Conducts a DNS query to resolve a domain name to its corresponding IP address (nslookup <URL>).
+```
 
 ```bash
 #!/bin/bash
 
-echo "1. Ping"
-echo "2. Send HTTP GET Request"
-echo "3. Perform DNS Query"
-echo "4. Exit"
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 -a|-b|-c"
+    exit 1
+fi
 
-read -p "Please select an option: " option
 
-case $option in
-    1)
-        read -p "Enter the address to ping: " address
-        ping -c 4 $address
+command=$1
+shift
+
+case $command in
+    -a)
+        ping -c 4 "$1"
         ;;
-    2)
-        read -p "Enter the URL to send HTTP GET request: " url
-        curl -I $url
+    -b)
+        traceroute "$1"
         ;;
-    3)
-        read -p "Enter the URL for DNS query: " url
-        nslookup $url
-        ;;
-    4)
-        echo "Exiting..."
-        exit 0
+    -c)
+        nslookup "$1"
         ;;
     *)
-        echo "Invalid option! Exiting the program..."
+        echo "Invalid option! Options are: -a, -b, -c"
         exit 1
         ;;
 esac
