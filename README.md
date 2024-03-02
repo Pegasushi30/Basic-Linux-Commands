@@ -83,7 +83,7 @@ esac
 | arp                      | Manages the ARP cache.                                      | ![Görsel Açıklaması](/images/471_22.jpg)    |
 | mitmproxy                | Interactive HTTPS proxy.                                    | ![Görsel Açıklaması](/images/471_23.jpg)    |
 | nmap                     | Scans for open ports and services.                          | ![Görsel Açıklaması](/images/471_24.jpg)    |
-| zenmap                   | GUI for Nmap.                                               | ![Görsel Açıklaması](/images/471_25_1.jpg) ![Görsel Açıklaması](/images/471_25_2.jpg)     |
+| zenmap                   | GUI for Nmap.                                               | ![Görsel Açıklaması](/images/471_25.jpg) ![Görsel Açıklaması](/images/471_25_2.jpg)     |
 | openvpn                  | VPN solution.                                               | ![Görsel Açıklaması](/images/471_26.jpg)    |
 | ftp/sftp                 | File transfer protocols.                                    | ![Görsel Açıklaması](/images/471_27.jpg)    |
 | iptables                 | Controls IPv4 packet filtering.                             | ![Görsel Açıklaması](/images/471_28.jpg)    |
