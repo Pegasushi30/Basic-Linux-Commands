@@ -69,26 +69,26 @@ esac
 | wget                     | Downloads files from the web.                               | ![Görsel Açıklaması](/images/471.8.jpg)    |
 | tc                       | Controls traffic in Linux.                                  | ![Görsel Açıklaması](/images/471_9.jpg)    |
 | dig            | Looks up DNS information.                                   | ![Görsel Açıklaması](/images/471_10_1.jpg)    |
-| whois                    | Checks domain registration info.                            |
-| ssh                      | Imagine your computer, sneaking into an exclusive VIP party with its own secret handshake. |
-| scp                      | Securely copies files between hosts.                        |
-| rsync                    | Efficiently syncs files and directories.                    |
-| ngrep                    | Searches network traffic.                                   |
-| tcpdump                  | Captures and analyzes network packets.                      |
-| wireshark                | Analyzes network protocols.                                 |
-| tshark                   | Command-line version of Wireshark.                          |
-| tcpflow                  | Captures and stores TCP data.                               |
-| route                    | Manages IP routing tables.                                  |
-| ip                       | Handles IP addresses and routes.                            |
-| arp                      | Manages the ARP cache.                                      |
-| mitmproxy                | Interactive HTTPS proxy.                                    |
-| nmap                     | Scans for open ports and services.                          |
-| zenmap                   | GUI for Nmap.                                               |
-| openvpn                  | VPN solution.                                               |
-| ftp/sftp                 | File transfer protocols.                                    |
-| iptables                 | Controls IPv4 packet filtering.                             |
-| mtr           | Traces packet routes.                                       |
-| openssl                  | Handles secure communications.                              |
+| whois                    | Checks domain registration info.                            | ![Görsel Açıklaması](/images/471_11.jpg)    |
+| ssh                      | Imagine your computer, sneaking into an exclusive VIP party with its own secret handshake. | ![Görsel Açıklaması](/images/471_12.jpg)    |
+| scp                      | Securely copies files between hosts.                        | ![Görsel Açıklaması](/images/471_13.jpg)    |
+| rsync                    | Efficiently syncs files and directories.                    | ![Görsel Açıklaması](/images/471_14.jpg)    |
+| ngrep                    | Searches network traffic.                                   | ![Görsel Açıklaması](/images/471_15.jpg)    |
+| tcpdump                  | Captures and analyzes network packets.                      | ![Görsel Açıklaması](/images/471_16.jpg)    |
+| wireshark                | Analyzes network protocols.                                 | ![Görsel Açıklaması](/images/471_17_1.jpg) ![Görsel Açıklaması](/images/471_17_2.jpg)    |
+| tshark                   | Command-line version of Wireshark.                          | ![Görsel Açıklaması](/images/471_18.jpg)    |
+| tcpflow                  | Captures and stores TCP data.                               | ![Görsel Açıklaması](/images/471t_19.jpg)    |
+| route                    | Manages IP routing tables.                                  | ![Görsel Açıklaması](/images/471_20.jpg)    |
+| ip                       | Handles IP addresses and routes.                            | ![Görsel Açıklaması](/images/471_21.jpg)    |
+| arp                      | Manages the ARP cache.                                      | ![Görsel Açıklaması](/images/471_22.jpg)    |
+| mitmproxy                | Interactive HTTPS proxy.                                    | ![Görsel Açıklaması](/images/471_23.jpg)    |
+| nmap                     | Scans for open ports and services.                          | ![Görsel Açıklaması](/images/471_24.jpg)    |
+| zenmap                   | GUI for Nmap.                                               | ![Görsel Açıklaması](/images/471_25_1.jpg) ![Görsel Açıklaması](/images/471_25_2.jpg)     |
+| openvpn                  | VPN solution.                                               | ![Görsel Açıklaması](/images/471_26.jpg)    |
+| ftp/sftp                 | File transfer protocols.                                    | ![Görsel Açıklaması](/images/471_27.jpg)    |
+| iptables                 | Controls IPv4 packet filtering.                             | ![Görsel Açıklaması](/images/471_28.jpg)    |
+| mtr           | Traces packet routes.                                       | ![Görsel Açıklaması](/images/471_29.jpg)    |
+| openssl                  | Handles secure communications.                              | ![Görsel Açıklaması](/images/471_30.jpg)    |
 
 
 
